@@ -21,12 +21,19 @@ public class Calc {
     {
         System.out.println("Remainder = "+(a%b));
     }
+	
+	public void checkZero(int a,int b)
+	{
+		if(a==0 || b ==0)
+			System.out.println("Zero Found");
+	}
     
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
         Calc c = new Calc();
+		c.checkZero(a,b);
         c.add(a,b);
         c.subtract(a,b);
 		c.multiply(a,b);
