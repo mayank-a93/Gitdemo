@@ -39,4 +39,4 @@ public class Calc {
 		c.multiply(a,b);
 		c.divide(a,b);
     }
-}
+} //end of class
